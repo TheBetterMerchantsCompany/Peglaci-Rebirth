@@ -1,0 +1,13 @@
+{
+  "itemName" : "spongeweed",
+  "price" : 25,
+  "rarity" : "Common",
+  "inventoryIcon" : "spongeweed.png",
+  "description" : "This slice of spongeweed contains excessive amounts of refreshing dissolved oxygen.",
+  "shortdescription" : "Spongeweed Slice",
+  "effects" : [ [
+      {"effect" : "breath", "amount" : 25},
+	  {"effect" : "peglacibreathboostmini"}
+    ] ],
+  "learnBlueprintsOnPickup" : [ "oxymax" ]
+}

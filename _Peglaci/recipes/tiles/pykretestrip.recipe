@@ -1,0 +1,7 @@
+{
+  "input" : [
+   
+  ],
+  "output" : { "item" : "pykretestrip", "count" : 300 },
+  "groups" : [ "peglacitesterbox", "materials", "all" ]
+}
