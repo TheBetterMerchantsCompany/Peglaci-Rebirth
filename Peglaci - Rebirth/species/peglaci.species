@@ -10,7 +10,7 @@
 	"charGenTextLabels" : [ "Fur color", "Hair style", "Shirt", "Legwear", "Hide color", "Ears", "Shirt color", "Legwear color", "PEGLACI", "Personality" ],
 	"statusEffects" : [],
 	"skull" : "/humanoid/peglaci/dead.png",
-	"effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9BD4FFFF=FEFF3DFF?replace=31A6FFFF=C29200FF",
+	"effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
 	"defaultBlueprints" : {
 		"tier1" : [
 /*
