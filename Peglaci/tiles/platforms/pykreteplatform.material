@@ -1,0 +1,22 @@
+{
+  "materialId" : 13509,
+  "materialName" : "pykreteplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "pykreteplatform",
+  "shortdescription" : "Pykrete Platform",
+  "description" : "A chilly - but sturdy - plaform made of Pykrete.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "pykreteplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

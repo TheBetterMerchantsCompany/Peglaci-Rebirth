@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "peglacitier7splitter", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 16}
+  ],
+ "output" : { "item" : "peglacitier8splitter", "count" : 1 },
+  "groups" : [ "separatortable", "weapons", "all" ]
+}
+
