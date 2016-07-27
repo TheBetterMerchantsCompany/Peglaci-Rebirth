@@ -2,6 +2,37 @@
   "peglaciStarterTreasure" : [
     [0, {
         "fill" : [	
+		
+{"item":"peglacitier5mchest"},
+{"item":"peglacitier5mhead"},
+{"item":"peglacitier5mpants"},
+
+
+{"item":"peglacitier5achest"},
+{"item":"peglacitier5ahead"},
+{"item":"peglacitier5apants"},
+
+
+{"item":"peglacitier5schest"},
+{"item":"peglacitier5shead"},
+{"item":"peglacitier5spants"},
+
+
+{"item":"peglacitier6achest"},
+{"item":"peglacitier6ahead"},
+{"item":"peglacitier6apants"},
+
+
+{"item":"peglacitier6schest"},
+{"item":"peglacitier6shead"},
+{"item":"peglacitier6spants"},
+
+
+{"item":"peglacitier6mchest"},
+{"item":"peglacitier6mhead"},
+{"item":"peglacitier6mpants"},
+		
+		
 		{"item":  "peglacitesterbox"},		
         {"item" : "peglacifuelcell"},
         {"item" : "flashlight"},
