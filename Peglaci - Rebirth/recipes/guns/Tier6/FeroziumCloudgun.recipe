@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "peglacitier9cloudgun", "count" : 1 },
+    { "item" : "feroziumcompound", "count" : 16}
+  ],
+ "output" : { "item" : "peglacitier10cloudgun", "count" : 1 },
+  "groups" : [ "acceleratortable", "weapons", "all" ]
+}
+

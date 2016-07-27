@@ -1,0 +1,26 @@
+{
+  "itemName" : "brokenemergpistol",
+  "inventoryIcon" : "brokenemergpistolicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "inspectionKind" : "tool",
+  "description" : "You could probably fix it with some Iron. Until then, it's bricked.",
+  "shortdescription" : "Broken Emergency Pistol",  
+  "largeImage" : "brokenemergpistolicon.png",
+  "image" : "brokenemergpistol.png",
+  "handPosition" : [-3, -4],
+  "fireTime" : 0.3,
+  "swingStart" : -40,
+  "swingFinish" : 60,
+  "blockRadius" : 1,  
+  "altBlockRadius" : 1,
+  "twoHanded" : false,
+  "strikeSound" : "/sfx/tools/pickaxe_hit.wav",
+  "durability" : 7500,
+  "durabilityPerUse" : 0,
+  "durabilityRegenChart" : [
+  ],
+  "tileDamage" : 0.1,
+  "tileDamageBlunted" : 0.1
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "peglacitier9shocklance", "count" : 1 },
+    { "item" : "ceruliumcompound", "count" : 16}
+  ],
+ "output" : { "item" : "peglacitier10shocklance", "count" : 1 },
+  "groups" : [ "manipulatortable", "weapons", "all" ]
+}
+

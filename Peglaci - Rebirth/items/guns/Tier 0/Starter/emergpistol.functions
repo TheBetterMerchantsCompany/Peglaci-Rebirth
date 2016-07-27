@@ -1,0 +1,4 @@
+{
+  "emergpistolTimeMultiplier" : [ "linear", "clamp", [0, 1], [0.01, 1], [0.5, 1], [0.501, 3], [0.502, 3], [0.503, 3] ],
+  "emergpistolImageSelector" : [ "linear", "clamp", [0, 0], [0.3, 4.9], [0.4, 3.9], [0.5, 3.9]]
+}

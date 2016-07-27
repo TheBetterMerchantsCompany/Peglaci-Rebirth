@@ -1,0 +1,34 @@
+{
+  "itemName" : "peglacitier6smg",
+  "price" : 800,
+  "inventoryIcon" : "peglacitier6smgicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Ferozium slugs weaken armor - stay on target to deal increased damage. ",
+  "shortdescription" : "Peeler Submachinegun II",
+  "image" : "peglacitier6smg.png:<frame>",
+  "imageFrameSelector" : "peglacitier6smgImageSelector",
+ 
+  "handPosition" : [-5, -1],
+  "firePosition" : [4, 1.5],
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Machine Pistol",
+ 
+  "fireTime" : 0.1,
+  "twoHanded" : false,
+  "rateOfFire" : [2, 7],
+	"muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar4.wav" } ]
+  },
+  
+   "projectileType" : "peglacitier6smgshot",
+  "projectile" : {
+    "power" : 1.7,
+    "powerCurve" : "peglacitier6smgTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+}
+
