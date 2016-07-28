@@ -2,7 +2,6 @@
   "itemName" : "peglacitier3axe",
   "price" : 800,
   "level" : 3,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Bites like a freezing wind.",

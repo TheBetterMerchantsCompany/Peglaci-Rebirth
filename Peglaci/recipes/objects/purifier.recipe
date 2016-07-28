@@ -2,6 +2,7 @@
   "input" : [
    
   ],
+  "duration" : 5,
   "output" : {
     "item" : "peglacipurifier",
     "count" : 1

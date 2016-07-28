@@ -2,7 +2,6 @@
   "itemName" : "peglacitier7spear",
   "price" :1500,
   "level" : 6,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
   "description" : "The blade is long and keen enough to pierce a whale's heart.",

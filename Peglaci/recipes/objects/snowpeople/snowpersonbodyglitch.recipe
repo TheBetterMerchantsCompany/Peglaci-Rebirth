@@ -2,6 +2,7 @@
   "input" : [
    
   ],
+  "duration" : 5,
   "output" : { "item" : "snowpersonbodyglitch", "count" :1 },
   "groups" : [ "snowpeoplegenerator", "objects", "all" ] 
 }

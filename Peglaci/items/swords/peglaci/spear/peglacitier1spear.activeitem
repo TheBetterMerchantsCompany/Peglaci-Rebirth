@@ -2,7 +2,6 @@
   "itemName" : "peglacitier1spear",
   "price" : 200,
   "level" : 1,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "Spear used to hunt small game.",

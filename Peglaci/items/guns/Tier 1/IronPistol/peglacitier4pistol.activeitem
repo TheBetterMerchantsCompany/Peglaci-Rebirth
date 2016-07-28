@@ -1,38 +1,64 @@
 {
   "itemName" : "peglacitier4pistol",
-  
-  "price" : 200,
-  "inventoryIcon" : "peglacitier4pistolicon.png",
-  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "price" : 1500,
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Durasteel components allow for greater power. Alternate fire stuns the target momentarily. ",
+  "rarity" : "uncommon",
+  "description" : "Durasteel components allow for greater power. Alternate fire stuns the target momentarily.",
   "shortdescription" : "Peacekeeper Pistol",
-  "image" : "peglacitier4pistol.png:<frame>",
-  "imageFrameSelector" : "peglacitier4pistolImageSelector",
-  
-  "handPosition" : [-5, -1],
-  "firePosition" : [6, 1.5],
-  "recoilTime" : 0.1,
-  "level" : 1,
   "tooltipKind" : "gun",
-  "weaponType" : "Pistol",
-
-  "fireTime" : 0.35,
+  "category" : "pistol",
   "twoHanded" : false,
-  "rateOfFire" : [2, 7],
-	"muzzleEffect" : {
+  "itemTags" : ["weapon", "ranged", "pistol"],
+  "level" : 1,
+  "weaponType" : "Charge Gun",
+  "inventoryIcon" : "peglacitier4pistolicon.png",
+
+  "animation" : "peglacitier4pistol.animation",
+  "animationParts" : {
+    "gun" : "peglacitier4pistol.png",
+    "gunfullbright" : "peglacitier4pistolfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/bow_draw1.ogg" ]
+    }
+  },
+  "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
     "fireSound" : [ { "file" : "/sfx/gun/plasma_ar2.wav" } ]
   },
-  "fireOnRelease" : true,
   
-   "projectileType" : "peglacidart",
-  "powerProjectileType" : "peglacipowerdart",
-  "powerProjectileTime" : [0.7, 50],
-  "projectile" : {
-    "power" : 6,
-    "powerCurve" : "peglacitier4pistolTimeMultiplier",
-    "color" : [10, 255, 10]
-	}
+  "muzzleOffset" : [1.4, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 5,
+        "cooldown" : 0.1,
+        "projectileType" : "peglacidart",
+        "projectileParameters" : {},
+        "inaccuracy" : 0.008,
+        "baseDamage" : 1.5,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 0.5,
+        "projectileType" : "peglacipowerdart",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 5,
+        "fireSound" : "fire2"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

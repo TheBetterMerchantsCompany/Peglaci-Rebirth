@@ -2,7 +2,6 @@
   "itemName" : "peglacitier6axe",
   "price" : 1500,
   "level" : 6,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
   "description" : "One swipe can shatter a glacier! A small one, anyhow.",

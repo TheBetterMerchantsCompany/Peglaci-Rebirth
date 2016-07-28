@@ -2,7 +2,6 @@
   "itemName" : "peglacitier10spear",
   "price" : 1500,
   "level" : 6,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
   "description" : "Born of cold and winter air and mountain rain combining.",

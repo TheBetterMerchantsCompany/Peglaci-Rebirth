@@ -2,7 +2,6 @@
   "itemName" : "peglacitier4spear",
   "price" : 1000,
   "level" : 4,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "The two blades vibrate to pierce armored hides.",

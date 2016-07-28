@@ -2,7 +2,6 @@
   "itemName" : "peglacitier4axe",
   "price" : 1000,
   "level" : 4,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "No ice can stop you now!",

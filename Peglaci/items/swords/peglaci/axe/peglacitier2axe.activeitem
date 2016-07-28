@@ -3,7 +3,6 @@
   
   "price" : 600,
   "level" : 2,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "For REALLY stubborn ice.",

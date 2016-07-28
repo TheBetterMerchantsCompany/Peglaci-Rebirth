@@ -2,6 +2,7 @@
   "input" : [
    
   ],
+  "duration" : 5,
   "output" : { "item" : "snowpersonbottom2", "count" :1 },
   "groups" : [ "snowpeoplegenerator", "objects", "all" ] 
 }
