@@ -1,0 +1,51 @@
+{
+  "itemName" : "peglacitier10spear",
+  "price" : 1500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Born of cold and winter air and mountain rain combining.",
+  "shortdescription" : "Frozen-Heart",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "peglacitier10spear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "peglacitier10spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.6,
+    "baseDps" : 9.24,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 24
+    }
+  },
+  "altAbilityType" : "rocketspear3",
+  "altAbility" : { },
+
+  "critChance" : 2,
+  "critBonus" : 7,
+  "palette" : "/items/active/weapons/colors/tier10melee.weaponcolors",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
