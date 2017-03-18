@@ -1,9 +1,9 @@
 {
   "itemName" : "peglacitier9spear",
   "price" : 1200,
-  "level" : 1,
+  "level" : 5,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "rare",
   "description" : "The cold Frosteel blade tears at skin even as it passes through it.",
   "shortdescription" : "Absolute Spear-o",
   "tooltipKind" : "sword",
@@ -26,26 +26,24 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "ice",
+  "elementalType" : "physical",
 
   "aimOffset" : -1.0,
+
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "scripts" : [],
-
-    "fireTime" : 0.6,
-    "baseDps" : 9.24,
+    "fireTime" : 0.95,
+    "baseDps" : 10.5,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
-      "knockback" : 24
+      "knockback" : 35
     }
   },
-  "altAbilityType" : "rocketspear3",
-  "altAbility" : { },
 
-  "critChance" : 2,
-  "critBonus" : 7,
-  "palette" : "/items/active/weapons/colors/tier09melee.weaponcolors",
+  "altAbilityType" : "spearspin",
+  
+  "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
+
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -1,25 +1,26 @@
 {
   "itemName" : "peglacitier8axe",
-  "price" : 280,
+  "level" : 5,
+  "price" : 1200,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "rare",
   "description" : "Pierce the toughest ice - or armor.",
   "shortdescription" : "Winterpick",
   "tooltipKind" : "sword",
   "category" : "axe",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","axe"],
-  "level" : 1,
+  
   "inventoryIcon" : "peglacitier8axe.png",
 
-  "animation" : "axe.animation",
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : {
     "blade" : "peglacitier8axe.png",
     "handle" : ""
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-      "offset" : [-1.0, 1.75]
+      "offset" : [-0.5, 1.75]
     }}}},
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_axe.ogg" ]
@@ -34,11 +35,10 @@
 
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
-    "fireTime" : 0.7,
-    "baseDps" : 8.5,
+    "fireTime" : 0.9,
+    "baseDps" : 9.5,
     "damageConfig" : {
-      "damageSourceKind" : "axe",
-      "knockback" : 15
+      "knockback" : 25
     },
     "stances" : {
       "idle" : {
@@ -66,8 +66,8 @@
       }
     }
   },
-  "critChance" : 1,
-  "critBonus" : 4, 
-  "palette" : "/items/active/weapons/colors/tier08melee.weaponcolors",
+  
+  "palette" : "/items/active/weapons/colors/tier8melee.weaponcolors",
+
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

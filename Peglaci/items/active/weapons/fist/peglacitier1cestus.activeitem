@@ -1,11 +1,11 @@
 {
   "itemName" : "peglacitier1cestus",
-  "price" : 1000,
-  "level" : 5,
+  "price" : 200,
+  "level" : 1,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Not adamantium, but still cool.",
-  "shortdescription" : "Claw Glove",
+  "description" : "An iron blade firmly lashed to the wrist.",
+  "shortdescription" : "Wristblade",
   "tooltipKind" : "fistweapon",
   "category" : "fistWeapon",
   "twoHanded" : false,
@@ -107,6 +107,8 @@
       }
     }
   },
+  
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
 
   "builder" : "/items/buildscripts/buildfist.lua"
 }

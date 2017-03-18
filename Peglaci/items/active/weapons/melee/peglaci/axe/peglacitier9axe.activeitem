@@ -1,18 +1,19 @@
 {
   "itemName" : "peglacitier9axe",
+  "level" : 5,
   "price" : 1200,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "rare",
   "description" : "A Rubium handle and a Frosteel blade make this axe beyond compare.",
   "shortdescription" : "Glaciercleave",
   "tooltipKind" : "sword",
   "category" : "axe",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","axe"],
-  "level" : 1,
+  
   "inventoryIcon" : "peglacitier9axe.png",
 
-  "animation" : "axe.animation",
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : {
     "blade" : "peglacitier9axe.png",
     "handle" : ""
@@ -34,11 +35,10 @@
 
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
-    "fireTime" : 0.7,
-    "baseDps" : 8.5,
+    "fireTime" : 0.9,
+    "baseDps" : 9.5,
     "damageConfig" : {
-      "damageSourceKind" : "axe",
-      "knockback" : 15
+      "knockback" : 25
     },
     "stances" : {
       "idle" : {
@@ -66,8 +66,8 @@
       }
     }
   },
-  "critChance" : 1,
-  "critBonus" : 4, 
-  "palette" : "/items/active/weapons/colors/tier09melee.weaponcolors",
+  
+  "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
+
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
