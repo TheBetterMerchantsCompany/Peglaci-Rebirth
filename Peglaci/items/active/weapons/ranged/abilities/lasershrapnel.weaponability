@@ -1,0 +1,45 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/plasma_sniper2.ogg", "/sfx/weapons/energypew.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Scatter Laser",
+    "type" : "lasershrapnel",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "energyUsage" : 35,
+    "baseDps" : 5,
+    "fireTime" : 1,
+    "inaccuracy" : 0.35,
+    "fireType" : "auto",
+    "projectileCount" : 6,
+
+    "projectileType" : [ "isn_terawattlaser2" ],
+    "projectileParameters" : {
+      "speed" : 60,
+      "knockback" : 0
+    },
+
+    "usePrimaryFireSound" : false,
+    "useParticleEmitter" : false,
+    "stances" : {
+      "fire" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true
+      }
+    }
+  }
+}
