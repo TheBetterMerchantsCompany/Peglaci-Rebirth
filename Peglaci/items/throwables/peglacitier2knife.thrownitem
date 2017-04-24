@@ -1,8 +1,8 @@
 {
   "itemName" : "peglacitier2knife",
-  "price" : 150,
+  "price" : 20,
   "rarity" : "Common",
-  "level" : 2,
+  "category" : "throwableItem",
   "inventoryIcon" : "peglacitier2knife.png",
   "image" : "peglacitier2knife.png",
   "shortdescription" : "Burster",
@@ -17,9 +17,15 @@
   "projectileType" : "peglacitier2knife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 70
-	
-
+    "power" : 70,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
   }
 }
-

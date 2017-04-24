@@ -14,19 +14,19 @@
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier5knife-2",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : 0
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier5knife-2",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier5knife-2",
       "inheritDamageFactor" : 0.5,
@@ -36,5 +36,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

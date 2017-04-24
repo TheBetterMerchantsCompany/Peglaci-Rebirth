@@ -10,7 +10,7 @@
   "pointLight" : false,
   "speed" : 10,
   "actionOnReap" : [
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1B",
       "inheritDamageFactor" : 0,
@@ -22,5 +22,3 @@
   "damageKind" : "dagger",
   "emitters" : [ "peglacitrail" ]
 }
-
-

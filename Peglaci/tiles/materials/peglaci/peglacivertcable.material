@@ -1,5 +1,5 @@
 {
-  "materialId" : 13499,
+  "materialId" : 3499,
   "materialName" : "peglacivertcable",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "peglacivertcable",
@@ -7,9 +7,10 @@
   "shortdescription" : "Vertical Cabling",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "health" : 35,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

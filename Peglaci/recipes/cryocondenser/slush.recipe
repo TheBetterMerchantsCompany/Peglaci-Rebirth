@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "dirtmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "slush", "count" : 1 },
+  "groups"  : [ "cryocondenser", "materials", "all" ]
+}

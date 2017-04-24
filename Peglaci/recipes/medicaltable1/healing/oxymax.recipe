@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "spongeweed", "count" : 1 },
+    { "item" : "snowberry", "count" : 1 },	
+    { "item" : "bluestim", "count" : 3 }
+  ],
+  "duration" : 5,
+ "output" : { "item" : "oxymax", "count" : 1 },
+  "groups" : [ "craftingmedical", "healing" ]
+}

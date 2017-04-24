@@ -1,5 +1,5 @@
 {
-  "materialId" : 13501,
+  "materialId" : 3501,
   "materialName" : "peglacicableconnector",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "peglacicableconnector",
@@ -7,9 +7,10 @@
   "shortdescription" : "Cable Connector",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 35,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

@@ -9,24 +9,24 @@
   "lightColor" : [0, 255, 255],
   "speed" : 10,
   "timeToLive" : 0.8,
-"actionOnReap" : [
+  "actionOnReap" : [
     {
       "action" : "config",
       "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
@@ -38,13 +38,13 @@
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : 180
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier8knife-2",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : 195
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier8knife-2",
       "inheritDamageFactor" : 0.5,
@@ -54,5 +54,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

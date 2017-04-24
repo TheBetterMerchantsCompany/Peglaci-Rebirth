@@ -1,5 +1,5 @@
 {
-  "materialId" : 13504,
+  "materialId" : 3504,
   "materialName" : "inscribedpykreteblock",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "inscribedpykreteblock",
@@ -7,9 +7,10 @@
   "shortdescription" : "Inscribed Pykrete Block",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "health" : 35,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

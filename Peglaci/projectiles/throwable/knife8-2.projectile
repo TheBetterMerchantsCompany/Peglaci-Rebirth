@@ -9,51 +9,50 @@
   "lightColor" : [0, 255, 255],
   "speed" : 40,  
   "timeToLive" : 4,
-"actionOnReap" : [
-
-	{
+  "actionOnReap" : [
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 10
     },
-	{
+    {
       "action" : "projectile",
       "type" : "icecloud",
       "inheritDamageFactor" : 0.05,
@@ -63,5 +62,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

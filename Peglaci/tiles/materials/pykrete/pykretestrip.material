@@ -1,5 +1,5 @@
 {
-  "materialId" : 13506,
+  "materialId" : 3506,
   "materialName" : "pykretestrip",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "pykretestrip",
@@ -7,9 +7,10 @@
   "description" : "A decorative strip made of Pykrete.",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "health" : 35,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

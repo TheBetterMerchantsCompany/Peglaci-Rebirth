@@ -3,7 +3,7 @@
   "image" : "knife10.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
-  "physics" : "grenadezbomb",
+  "physics" : "grenade",
   "bounces" : 0,
   "frameNumber" : 3,
   "pointLight" : false,
@@ -14,73 +14,73 @@
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 0
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 45
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : -45
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 180
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 135
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-1",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 225
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-2",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 0
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-2",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 45
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-2",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -45
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-2",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 180
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-2",
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 135
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier10knife-2",
       "inheritDamageFactor" : 0.05,
@@ -90,5 +90,3 @@
   "damageKind" : "dagger",
   "emitters" : [ "peglacitrail" ]
 }
-
-

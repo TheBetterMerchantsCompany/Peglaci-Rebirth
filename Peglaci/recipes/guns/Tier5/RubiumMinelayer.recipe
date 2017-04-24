@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier7splitter", "count" : 1 },
-    { "item" : "refinedrubium", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier9minelayer", "count" : 1 },
-  "groups" : [ "manipulatortable", "weapons", "all" ]
-}
-

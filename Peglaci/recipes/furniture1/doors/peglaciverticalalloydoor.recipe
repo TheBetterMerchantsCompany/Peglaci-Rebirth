@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "peglaciverticalalloydoor", "count" : 1 },
+  "groups" : [ "craftingfurniture", "doors", "all" ]
+}

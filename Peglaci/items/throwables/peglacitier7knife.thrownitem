@@ -1,9 +1,9 @@
 {
   "itemName" : "peglacitier7knife",
-  "price" : 375,
-  "rarity" : "Legendary",
-  "level" : 6,
-   "inventoryIcon" : "peglacitier7knife.png",
+  "price" : 70,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "peglacitier7knife.png",
   "image" : "peglacitier7knife.png",
   "shortdescription" : "Typhoon Harpoon",
   "description" : "Flies straight for a moment before exploding into motion under its own power.",
@@ -17,7 +17,15 @@
   "projectileType" : "peglacitier7knife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 250
+    "power" : 250,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
   }
 }
-
