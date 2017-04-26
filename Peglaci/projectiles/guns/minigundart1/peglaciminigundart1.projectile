@@ -18,20 +18,20 @@
      "fuzzAngle" : 2,
     "angleAdjust" : 0
     },
-//  {
-//  "action" : "projectile",
-//  "type" : "peglaciminigundart1b",
-//  "inheritDamageFactor" : 0.33,
-//  "fuzzAngle" : 2,
-//  "angleAdjust" : 90
-//  },
-//  {
-//  "action" : "projectile",
-//  "type" : "peglaciminigundart1c",
-//  "inheritDamageFactor" : 0.33,
-//	 "fuzzAngle" : 2,
-//  "angleAdjust" : -90
-//  },    
+    {
+    "action" : "projectile",
+    "type" : "peglaciminigundart1b",
+    "inheritDamageFactor" : 0.33,
+    "fuzzAngle" : 2,
+    "angleAdjust" : 90
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciminigundart1c",
+    "inheritDamageFactor" : 0.33,
+     "fuzzAngle" : 2,
+    "angleAdjust" : -90
+    },    
     {
     "action" : "projectile",
     "type" : "peglaciminiguncloud",
@@ -47,7 +47,6 @@
     "angleAdjust" : 0
     }
   ],  
-  "statusEffects" : [ "" ],
   "damageKind" : "standardbullet",
   "emitters" : [ "peglacitrailpurple" ]
 }

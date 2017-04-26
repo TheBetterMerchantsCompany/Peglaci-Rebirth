@@ -46,7 +46,7 @@
     "projectileCount" : 2,
     "fireType" : "auto",
 
-    "projectileType" : "peglacitminigundart1",
+    "projectileType" : "peglaciminigundart1",
     "projectileParameters" : {
       "knockback" : 4,
       "speed" : 50,

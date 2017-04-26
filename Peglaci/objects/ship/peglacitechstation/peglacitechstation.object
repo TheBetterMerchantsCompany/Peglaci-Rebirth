@@ -3,22 +3,20 @@
   "colonyTags" : [ "peglaci" ],
   "printable" : false,
   "rarity" : "Common",
-
   "interactAction" : "OpenAiInterface",
-
   "category" : "decorative",
-  
   "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
   "shortdescription" : "S.A.I.L",
   "race" : "peglaci",
 
-  "apexDescription" : "A S.A.I.L console - the display is oddly hard to see, though.",
-  "avianDescription" : "This looks like a tech console, but it gives me a headache to look at it.",
-  "floranDescription" : "Tech ssstation! Nice red ssscreen!",
-  "glitchDescription" : "Observant. This screen is outputting data in visible red light as well as near and far infrared.",
-  "humanDescription" : "Classy drop down screen for a S.A.I.L station. The screen kinda reminds me of a Virtual Boy.",
-  "hylotlDescription" : "While the S.A.I.L console is seemingly quite advanced, the screen is decidely quite difficult to operate.",
-  "peglaciDescription" : "A tech station - S.A.I.L displays data in both 'visible' and infrared light best suited for Peglaci eyes.",
+	"apexDescription" : "I can talk to S.A.I.L through this console.",
+	"avianDescription" : "I can use this station to talk to S.A.I.L.",
+	"floranDescription" : "Floran use thisss magic panel to talk to S.A.I.L!",
+	"glitchDescription" : "Happy. This station allows me to talk to S.A.I.L.",
+	"humanDescription" : "This station allows me to communicate with S.A.I.L.",
+	"hylotlDescription" : "This console allows me to communicate with S.A.I.L.",
+	"novakidDescription" : "This here station let's me talk with S.A.I.L.",
+  "peglaciDescription" : "This console allows me to communicate with S.A.I.L.",
 
   "inventoryIcon" : "peglacitechstationicon.png",
   "orientations" : [
@@ -33,17 +31,15 @@
 
     }
   ],
-
-  "offeredQuests" : [ "gaterepair" ],
-
+	"offeredQuests" : [ "gaterepair" ],
+  
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
   "shipPetType" : "petjuvpeg",
-  "spawnOffset" : [2, -1],
-
+  "spawnOffset" : [2, -2],
   "chatPortrait" : "/ai/portraits/peglaciportrait.png:yell.1",
   "dialog" : {
     "wakeUp" : [
@@ -62,6 +58,5 @@
       [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/peglaciportrait.png:unique.1" ]
     ]
   },
-
   "uniqueId" : "techstation"
 }

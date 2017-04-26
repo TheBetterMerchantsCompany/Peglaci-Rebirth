@@ -15,9 +15,7 @@
     "file" : "/projectiles/explosions/coldsplosion/coldsplosion.config"
     }
   ],  
-   "statusEffects" : [
-    {"effect" : "frostslow"}
-  ],
+  "statusEffects" : [ "frostslow" ],
   "damageKind" : "default",
   "emitters" : [ "defaultwhite" ]
 }

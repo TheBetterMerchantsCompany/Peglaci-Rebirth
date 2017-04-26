@@ -16,7 +16,6 @@
     "file" : "/projectiles/explosions/coldsplosion/coldsplosion.config"
     }
   ],
-  "statusEffects" : [ "" ],
   "damageKind" : "default",  
   "emitters" : [ "peglacilasertrail" ]
 }

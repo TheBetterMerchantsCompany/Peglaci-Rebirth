@@ -17,9 +17,7 @@
     "file" : "/projectiles/explosions/zapsplosion/zapsplosion.config"
     }
   ],
-  "statusEffects" : [
-    {"effect" : "stun"}
-  ],  
+  "statusEffects" : [ "stun" ],  
   "damageKind" : "default",
   "emitters" : [ "peglacitraillong" ]
 }

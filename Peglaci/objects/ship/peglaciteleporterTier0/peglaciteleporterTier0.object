@@ -1,5 +1,5 @@
 {
-  "objectName" : "peglaciteleporteroff",
+  "objectName" : "peglaciteleporterTier0",
   "colonyTags" : [ "peglaci" ],
   "printable" : false,
   "rarity" : "Common",
@@ -18,10 +18,10 @@
   "novakidDescription" : "Ship's teleporter. I need to power her up!",
   "peglaciDescription" : "The ship's teleporter. I need to power it up.",
 
-  "inventoryIcon" : "peglaciteleportericon.png",
+  "inventoryIcon" : "peglaciteleporterTier0icon.png",
   "orientations" : [
     {
-      "dualImage" : "peglaciteleporteroff.png:<color>.<frame>",
+      "dualImage" : "peglaciteleporterTier0.png:<color>.<frame>",
 
       "imagePosition" : [0, 0],
       "frames" : 4,
@@ -38,7 +38,5 @@
     "/objects/noisy/noisy.lua"
   ],
   
-  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
-  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ] 
 }
-

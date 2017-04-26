@@ -9,9 +9,6 @@
   "lightColor" : [0, 100, 200],
   "speed" : 15,
   "timeToLive" : 0.01,
-   "statusEffects" : [
-    "frostslow"
-  ],
   "actionOnReap" : [
     {
     "action" : "config",
@@ -39,5 +36,6 @@
     "angleAdjust" : 10
     }
   ],
+  "statusEffects" : [ "frostslow" ],
   "damageKind" : "ice"
 }

@@ -5,7 +5,7 @@
   "armorPenetration" : 5,
   "physics" : "bullet",
   "bounces" : 0,
-  "frameNumber" : 4,
+  "frameNumber" : 1,
   "piercing" : false,  
   "power" : 40,
   "lightColor" : [0, 100, 100],
@@ -20,5 +20,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitraillong" ]
 }
-
-

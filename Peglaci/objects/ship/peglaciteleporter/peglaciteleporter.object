@@ -1,6 +1,6 @@
 {
   "objectName" : "peglaciteleporter",
-  "colonyTags" : ["avian"],
+  "colonyTags" : [ "peglaci" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Trusty teleporter, what would we do without you?",

@@ -8,7 +8,7 @@
   "frameNumber" : 1,  
   "pointLight" : false,
   "speed" :50,
-    "lightColor" : [0, 100, 100],
+  "lightColor" : [0, 100, 100],
   "actionOnReap" : [
     {
       "action" : "config",
@@ -18,5 +18,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

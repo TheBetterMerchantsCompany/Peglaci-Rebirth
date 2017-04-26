@@ -19,7 +19,6 @@
     "angleAdjust" : -90
     }
   ],  
-  "statusEffects" : [ "" ],
   "damageKind" : "default",
   "emitters" : [ "peglacitrailpurple" ]
 }

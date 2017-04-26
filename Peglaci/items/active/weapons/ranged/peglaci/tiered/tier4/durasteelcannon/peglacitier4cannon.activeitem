@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/plasma_shotgun3.ogg" ]
+      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
     }
   },
 

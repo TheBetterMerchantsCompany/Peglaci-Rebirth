@@ -6,11 +6,9 @@
   "armorPenetration" : 1,
   "physics" : "laser",
   "bounces" : 3,
-    "lightColor" : [0, 100, 200],
+  "lightColor" : [0, 100, 200],
   "speed" : 10,  
   "timeToLive" : 2.2,
-   "statusEffects" : [
-    "frostslow"
-  ],
+  "statusEffects" : [ "frostslow" ],
   "damageKind" : "ice"
 }

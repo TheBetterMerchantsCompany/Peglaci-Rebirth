@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacirailgundartpowerwait1a",
-  "image" :  "peglacirailgundartpower1.png",
+  "image" : "peglacirailgundartpower1.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "gas",

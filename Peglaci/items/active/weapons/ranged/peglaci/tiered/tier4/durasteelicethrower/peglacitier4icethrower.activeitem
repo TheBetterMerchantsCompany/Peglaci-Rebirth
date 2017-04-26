@@ -23,7 +23,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/icechucker.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ]
     }
   },
 
