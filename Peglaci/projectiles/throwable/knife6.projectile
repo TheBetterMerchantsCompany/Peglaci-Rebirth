@@ -3,13 +3,13 @@
   "image" : "knife6.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
-  "physics" : "grenadezbomb",
+  "physics" : "grenade",
   "bounces" : 3,
   "frameNumber" : 4,
-    "lightColor" : [0, 255, 255],
+  "lightColor" : [0, 255, 255],
   "speed" : 18,
   "piercing" : true,
-"actionOnReap" : [
+  "actionOnReap" : [
     {
       "action" : "projectile",
       "type" : "peglacitier6knife-1",
@@ -118,7 +118,7 @@
       "fuzzAngle" : 0,
       "angleAdjust" : 180
     },
-	{
+    {
       "action" : "projectile",
       "type" : "peglacitier6knife-3",
       "fuzzAngle" : 0,
@@ -224,5 +224,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

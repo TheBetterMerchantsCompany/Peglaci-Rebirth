@@ -1,5 +1,5 @@
 {
-  "materialId" : 13505,
+  "materialId" : 3505,
   "materialName" : "pykretedecor",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "pykretedecor",
@@ -7,9 +7,10 @@
   "shortdescription" : "Pykrete Decor Panel",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 35,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

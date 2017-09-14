@@ -1,14 +1,20 @@
 {
   "itemName" : "oxymax",
-  "rarity" : "Common",
   "price" : 25,
+  "rarity" : "Common",
+  "category" : "drink",
   "inventoryIcon" : "oxymax.png",
   "description" : "This concoction hyperoxygenates the blood while reducing the body's requirement for air, allowing survival in airless environments for a time.",
   "shortdescription" : "Oxymax",
-  "handPosition" : [0, 4],
+  "maxStack" : 1,
   "effects" : [ [
-     
-        {"effect" : "peglacibreathboost"}
-     
-    ] ]
+    {
+      "effect" : "peglacibreathboost"
+    }
+  ] ],
+  "blockingEffects" : [
+    ""
+  ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
 }

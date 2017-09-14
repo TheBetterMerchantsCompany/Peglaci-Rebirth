@@ -21,7 +21,6 @@
     "frontSleeve" : "fsleeve.png"
   },
 
- 
   "colorOptions" : [
     /* GREY-BLUE */
      { "ffca8a" : "D0DFE7", "e0975c" : "8AA8D4", "a85636" : "596395", "6f2919" : "2E2F51" },

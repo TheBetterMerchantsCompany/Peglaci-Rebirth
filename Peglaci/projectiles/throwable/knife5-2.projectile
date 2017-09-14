@@ -7,7 +7,7 @@
   "bounces" : 0,
   "frameNumber" : 4,
   "pointLight" : false,
-   "lightColor" : [0, 255, 200],
+  "lightColor" : [0, 255, 200],
   "speed" : 30,
   "actionOnReap" : [
     {
@@ -18,5 +18,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

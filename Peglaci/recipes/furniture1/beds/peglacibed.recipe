@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "peglacibed", "count" :1 },
+  "groups" : [ "craftingfurniture", "beds", "all" ]
+}

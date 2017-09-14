@@ -1,84 +1,59 @@
 {
   "objectName" : "wildsnowberryseed",
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
-  "category" : "farmable",
-  "description" : "Cold, crunchy and poisonous. The trifecta of qualities for a delicious fruit.",
+  "category" : "seed",
+  "description" : "Resistant to snow and ice.",
   "shortdescription" : "Snowberry",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "snowberryseed",
+  "price" : 20,
+  "hasObjectItem" : false,
 
+  "biomePlaced" : true,
+  
   "apexDescription" : "These fruit are poisonous - they slow down bodily processes and cool your core temperature. Dangerous.",
   "avianDescription" : "I've heard these are really poisonous. They don't look appetizing.",
   "floranDescription" : "Tassstes like cold poissson - IS cold poissson.",
   "glitchDescription" : "Alarm. This fruit is heavily toxic!",
   "humanDescription" : "This looks and feels like a fruity ice cube. No thanks.",
   "hylotlDescription" : "The poison in this berry slows you down while making you feel warmer. Ingredients for hypothermia.",
+  "novakidDescription" : "I've heard these are really poisonous. They don't look appetizing.",
   "peglaciDescription" : "Snowberries are quite toxic, but their chemical properties make them surprisingly useful.",
-
+  
   "inventoryIcon" : "snowberryseedicon.png",
   "orientations" : [
     {
       "dualImage" : "snowberryseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [1, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ],
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
-  "interactionTransition" : {
-    "2" : {
-      "dropOptions" : [
-        0.3,
-        [
-          {
-            "name" : "snowberry",
-            "count" : 3
-          },
-          {
-            "name" : "snowberryseed",
-            "count" : 2
-          }
-        ],
-        [
-          {
-            "name" : "snowberry",
-            "count" : 2
-          },
-          {
-            "name" : "plantfibre",
-            "count" : 2
-          }
-        ],
-        [
-          {
-            "name" : "snowberry",
-            "count" : 2
-          }
-        ]
-      ],
-      "command" : "die"
-    }
-  },
-  "growing" : {
-    "0" : {
-      "duration" : [1000, 1340],
-      "success" : 1,
-      "failure" : 3
+  
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+  
+  "stages" : [
+    {
+      "duration" : [120, 360]
     },
-    "1" : {
-      "duration" : [1000, 1340],
-      "success" : 2,
-      "failure" : 3
+    {
+      "duration" : [120, 360]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "snowberryHarvest",
+      "resetToStage" : 2
     }
-  },
-  "stageAlts" : {
-    "count" : 4,
-    "2" : 5
-  }
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "" ],
+  
+  "maxImmersion" : 0.125,
+  "breakDropOptions" : [ [ [ "snowberryseed", 1, { } ] ]
+  ]  
 }

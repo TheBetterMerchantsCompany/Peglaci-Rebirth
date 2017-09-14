@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
  "output" : { "item" : "coldmarrowpanini", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "entree" ]
+  "groups" : [ "craftingfood", "mains" ]
 }
