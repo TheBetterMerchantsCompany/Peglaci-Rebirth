@@ -1,14 +1,13 @@
 {
   "objectName" : "spawnerpeglaci",
-   "tags" : ["misc"],
+  "colonyTags" : ["misc"],
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own Peglaci citizen!",
   "shortdescription" : "Peglaci Spawner",
-  "race" : "human",
+  "race" : "peglaci",
   "printable" : false,
   "category" : "spawner",
-  "price" : 500,
+  "price" : 100,
 
   "apexDescription" : "Peglaci, eh? They seem nice enough.",
   "avianDescription" : "As long as they stop bashing Kluex, I'm sure it'd be nice to have a few of them around.",
@@ -22,25 +21,27 @@
   "orientations" : [
     {
       "image" : "spawner_peglaci.png",
-      "imagePosition" : [-8, -8],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom", "background" ]
     }
   ],
 
   "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
   "scriptDelta" : 1,
+  //6000,
 
   "animation" : "/objects/spawner/spawners/peglaci.animation",
 
   "animationParts" : {
     "switch" : "spawner_peglaci.png"
   },
-  "animationPosition" : [-8, -8],
+  "animationPosition" : [-8, 0],
 
-  "inboundNodes" : [ ],
-  "outboundNodes" : [ ],
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
 
   "spawner" : {
     "searchRadius" : 32.0,
@@ -48,22 +49,8 @@
     "npcTypeOptions" : [ "villager" ],
     "npcParameterOptions" : [
       {
-        "dropPools" : [ ],
-		
-		"items" : {
-		"default" : [
-			[0, [
-				{
-					"chest" : [],
-
-					"legs" : []
-				}
-			] ]
-		]
-	}
-			
+        "dropPools" : [ ]
       }
     ]
   }
-
 }

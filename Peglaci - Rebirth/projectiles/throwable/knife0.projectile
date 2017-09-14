@@ -8,12 +8,12 @@
   "frameNumber" : 1,
   "pointLight" : false,
   "speed" : 18,
-  "actionOnReap": [
-       {
-         "action" : "config",
+  "actionOnReap" : [
+    {
+      "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-         }
-       ],
+    }
+  ],
   "damageKind" : "dagger",
   "emitters" : [ "defaultwhite" ]
 }

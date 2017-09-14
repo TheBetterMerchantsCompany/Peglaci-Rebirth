@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "snow", "count" : 1 },
-    { "item" : "plantfibre", "count" : 5}
-  ],
- "output" : { "item" : "slushpaste", "count" : 1 },
-  "groups" : [ "plain", "consumables", "all" ]
-}

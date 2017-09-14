@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "fabric", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : {
+    "item" : "cryocondenser",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

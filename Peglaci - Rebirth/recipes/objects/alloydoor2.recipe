@@ -1,8 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "duration" : 5,
-  "output" : { "item" : "alloydoor2", "count" :2 },
-  "groups" : [ "peglacitesterbox", "objects", "all" ] 
-}
