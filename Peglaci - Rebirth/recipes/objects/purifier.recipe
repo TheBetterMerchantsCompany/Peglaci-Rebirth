@@ -1,0 +1,11 @@
+{
+  "input" : [
+   
+  ],
+  "duration" : 5,
+  "output" : {
+    "item" : "peglacipurifier",
+    "count" : 1
+  },
+  "groups" : [ "peglacitesterbox", "objects", "all" ]
+}

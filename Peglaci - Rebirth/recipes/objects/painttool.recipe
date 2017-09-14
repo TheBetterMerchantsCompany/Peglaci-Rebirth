@@ -1,0 +1,8 @@
+{
+  "input" : [
+   
+  ],
+  "duration" : 5,
+  "output" : { "item" : "painttool", "count" :1 },
+  "groups" : [ "peglacitesterbox", "objects", "all" ] 
+}

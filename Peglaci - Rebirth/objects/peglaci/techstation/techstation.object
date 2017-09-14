@@ -1,6 +1,6 @@
 {
   "objectName" : "peglacitechstation",
-    "printable" : false,
+  "printable" : false,
   "rarity" : "Common",
   "interactAction" : "OpenAiInterface",
 
@@ -8,7 +8,7 @@
 
   "description" : "A tech station. For creating awesome tech and communicating with S.A.I.L!",
   "shortdescription" : "Tech Console",
-  "race" : "apex",
+  "race" : "peglaci",
 
   "apexDescription" : "A S.A.I.L console - the display is oddly hard to see, though.",
   "avianDescription" : "This looks like a tech console, but it gives me a headache to look at it.",
@@ -31,8 +31,35 @@
 
     }
   ],
-	"scripts" : [ "/objects/spawner/techstation.lua" ],
-	"scriptDelta" : 20,
-	"shipPetType" : "juvpeg",
-	"spawnOffset" : [1, -1]
+	
+  "offeredQuests" : [ "gaterepair" ],
+
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "juvpeg",
+  "spawnOffset" : [2, -1],
+
+  "chatPortrait" : "/ai/portraits/peglaciportrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting...", "/ai/portraits/peglaciportrait.png:unique.1" ],
+      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.",       "/ai/portraits/peglaciportrait.png:talk.0" ],
+      [ "I am also programmed to offer you information and advice.", "/ai/portraits/peglaciportrait.png:talk.1" ],
+      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/peglaciportrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/peglaciportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "System is down, please reboot.", "/ai/portraits/peglaciportrait.png:unique.1"],
+      [ "Please reboot the system.", "/ai/portraits/peglaciportrait.png:unique.1"],
+      [ "Reboot process remains uninitiated.", "/ai/portraits/peglaciportrait.png:unique.1"],
+      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/peglaciportrait.png:unique.1" ],
+      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/peglaciportrait.png:unique.1"],
+      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/peglaciportrait.png:unique.1" ]
+    ]
+  },
+
+  "uniqueId" : "techstation"
 }

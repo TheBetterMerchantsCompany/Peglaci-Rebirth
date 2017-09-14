@@ -1,5 +1,7 @@
 {
   "objectName" : "peglacicaptainschair",
+  "colonyTags" : ["peglaci"],
+  "itemTags" : ["captainschair"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "loungeable",
@@ -44,7 +46,8 @@
     }
   ],
 
-  "interactAction" : "openCockpitInterface",
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
 
   "sitFlipDirection" : false,
   "soundEffect" : "/sfx/objects/shipengine.ogg",

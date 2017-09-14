@@ -1,0 +1,8 @@
+{
+  "input" : [
+   
+  ],
+  "duration" : 5,
+  "output" : { "item" : "peglaciairlock", "count" :2 },
+  "groups" : [ "peglacitesterbox", "objects", "all" ] 
+}

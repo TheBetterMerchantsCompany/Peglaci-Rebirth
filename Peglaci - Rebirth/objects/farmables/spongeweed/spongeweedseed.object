@@ -1,0 +1,83 @@
+{
+  "objectName" : "spongeweedseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "This fragile plant produces excessive amounts of oxygen.",
+  "shortdescription" : "Spongeweed Clump",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "Tastes foul, but leaves one feeling refreshed.",
+  "avianDescription" : "This fragile plant gives one the ability to hold their breath for a long time.",
+  "floranDescription" : "Airy plant makesss Floran voice sssound funny.",
+  "glitchDescription" : "Surprise. This plant emits far more oxygen than expected.",
+  "humanDescription" : "I feel like I can breathe easier near this plant. Is that just me?",
+  "hylotlDescription" : "I feel like I could stay underwater forever if I had a large enough supply of this plant.",
+  "peglaciDescription" : "Peglaci use Spongeweed to stay underwater for extended periods of time. It can be treated to increase its potency.",
+
+  "inventoryIcon" : "spongeweedseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "spongeweedseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "spongeweed",
+            "count" : 1
+          },
+          {
+            "name" : "spongeweedseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "spongeweed",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "spongeweed",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 400],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 400],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

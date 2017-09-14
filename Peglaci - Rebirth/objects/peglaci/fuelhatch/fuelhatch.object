@@ -4,7 +4,7 @@
   "objectType" : "container",
   "description" : "Accepts a bunch of different kinds of fuel.",
   "shortdescription" : "Fuel Hatch",
-  "race" : "decorative",
+  "race" : "peglaci",
 
   "apexDescription" : "An integrated fuel hatch - I can load it up right from the command chair!",
   "avianDescription" : "How convenient, I can reach the fuel hatch from the chair.",
@@ -34,5 +34,12 @@
   "autoCloseCooldown" : 3600,
   "frameCooldown" : 67,
   "soundEffect" : "/sfx/objects/shipengine.ogg",
-  "soundEffectRadius" : 300
+  "soundEffectRadius" : 300,
+  
+  "itemTags" : [ "newfuelhatch" ],
+
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "fuel"
 }

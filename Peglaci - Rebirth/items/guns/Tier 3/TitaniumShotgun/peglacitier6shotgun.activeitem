@@ -1,0 +1,41 @@
+{
+  "itemName" : "peglacitier6shotgun",
+  "price" : 800,
+  "inventoryIcon" : "peglacitier6shotgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Improved materials increase damage capacity - charge to fire an incediary grenade.",
+  "shortdescription" : "Geyser Shotgun II",
+  "image" : "peglacitier6shotgun.png:<frame>",
+  "imageFrameSelector" : "peglacitier6shotgunImageSelector",
+
+  "handPosition" : [-5, -1],
+  "firePosition" : [12, 2],
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+  "recoilTime" : 0.2,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+  "fireOnRelease" : true,
+  
+   "projectileType" : "peglacitier6shotgunshot1",
+   "powerProjectileType" : "peglacitier6shotgunshotpower",
+  "powerProjectileTime" : [0.9, 50],
+  "projectile" : {
+    "power" : 6,
+    "powerCurve" : "peglacitier6shotgunTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}
