@@ -18,13 +18,13 @@
           "position" : [476, 270]
         },
         {
-          "timecode" : 13,
+          "timecode" : 10,
           "zoom" : 500,
           "alpha" : 1,
           "position" : [476, 270]
         },
         {
-          "timecode" : 13.5,
+          "timecode" : 11,
           "zoom" : 500,
           "alpha" : 0,
           "position" : [476, 270]
@@ -51,7 +51,7 @@
           "position" : [900, 30]
         },
         {
-          "timecode" : 12.5,
+          "timecode" : 8,
           "zoom" : 0.25,
           "alpha" : 1,
           "position" : [900, 30]
@@ -60,7 +60,7 @@
     },
     {
       "startTime" : 4.5,
-      "endTime" : 13,
+      "endTime" : 8,
       "drawables" : [
       ],
       "fontSize" : 16,
@@ -91,28 +91,9 @@
       ]
     },
     {
-      "avatar" : "fullneutralnude",
-      "keyframes" : [
-        {
-          "timecode" : 12.6,
-          "zoom" : 2.5,
-          "alpha" : 0,
-          "frame" : 0,
-          "position" : [478, 270]
-        },
-        {
-          "timecode" : 12.8,
-          "zoom" : 2.5,
-          "alpha" : 1,
-          "frame" : 0,
-          "position" : [478, 270]
-        }
-      ]
-    },
-    {
       "drawables" : [
         {
-          "image" : "/cinematics/respawn/peglaci/layer1.png:<frame>"
+          "image" : "/cinematics/respawn/peglaci/layer1.png:default.<frame>"
         }
       ],
       "keyframes" : [
@@ -124,17 +105,57 @@
           "position" : [476, 270]
         },
         {
-          "timecode" : 2.5,
+          "timecode" : 4,
           "zoom" : 2.5,
           "alpha" : 1,
           "frame" : 28,
           "position" : [476, 270]
         },
         {
-          "timecode" : 13,
+          "timecode" : 7,
+          "zoom" : 2.5,
+          "alpha" : 1,
+          "frame" : 69,
+          "position" : [476, 270]
+        },
+        {
+          "timecode" : 10,
           "alpha" : 0,
           "zoom" : 2.5,
-          "frame" : 80
+          "frame" : 69
+        }
+      ]
+    },
+    {
+      "avatar" : "fullneutralnude",
+      "keyframes" : [
+        {
+          "timecode" : 6.8,
+          "zoom" : 2.5,
+          "alpha" : 0,
+          "frame" : 0,
+          "position" : [478, 270]
+        },
+        {
+          "timecode" : 6.9,
+          "zoom" : 2.5,
+          "alpha" : 1,
+          "frame" : 0,
+          "position" : [478, 270]
+        },
+        {
+          "timecode" : 10,
+          "zoom" : 2.5,
+          "alpha" : 1,
+          "frame" : 0,
+          "position" : [478, 270]
+        },
+        {
+          "timecode" : 11,
+          "zoom" : 2.5,
+          "alpha" : 0,
+          "frame" : 0,
+          "position" : [478, 270]
         }
       ]
     }
