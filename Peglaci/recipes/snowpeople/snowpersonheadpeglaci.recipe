@@ -1,8 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "duration" : 5,
-  "output" : { "item" : "snowpersonheadpeglaci", "count" :1 },
-  "groups" : [ "snowpeoplegenerator", "objects", "all" ] 
-}

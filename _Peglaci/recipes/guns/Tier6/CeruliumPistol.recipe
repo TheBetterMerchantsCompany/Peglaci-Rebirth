@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier4pistol", "count" : 1 },
-    { "item" : "ceruliumcompound", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier10apistol", "count" : 1 },
-  "groups" : [ "manipulatortable", "weapons", "all" ]
-}

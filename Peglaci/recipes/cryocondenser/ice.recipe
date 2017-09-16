@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "snow", "count" : 3 }
-  ],
-  "output" : { "item" : "ice", "count" : 1 },
-  "groups"  : [ "cryocondenser", "materials", "all" ]
-}

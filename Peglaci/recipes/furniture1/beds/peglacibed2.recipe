@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 },
-    { "item" : "fabric", "count" : 10 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "peglacibed", "count" :1 },
-  "groups" : [ "craftingfurniture", "beds", "all" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "output" : { "item" : "pykreteblock", "count" : 300 },
-  "groups"  : [ "craftingfurniture", "materials", "all" ]
-}

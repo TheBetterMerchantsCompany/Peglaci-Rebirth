@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier5shotgun", "count" : 1 },
-    { "item" : "titaniumbar", "count" : 5}
-  ],
- "output" : { "item" : "peglacitier6shotgun", "count" : 1 },
-  "groups" : [ "metalworkstation", "weapons", "all" ]
-}
-

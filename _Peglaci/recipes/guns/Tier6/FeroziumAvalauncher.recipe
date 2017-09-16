@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier9avalauncher", "count" : 1 },
-    { "item" : "feroziumcompound", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier10avalauncher", "count" : 1 },
-  "groups" : [ "acceleratortable", "weapons", "all" ]
-}

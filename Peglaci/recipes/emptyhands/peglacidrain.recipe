@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "peglacidrain", "count" :2 },
-  "groups" : [ "plain", "objects", "all" ] 
-}

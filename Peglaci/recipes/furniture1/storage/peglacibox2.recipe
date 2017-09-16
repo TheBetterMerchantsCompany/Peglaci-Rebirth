@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkwoodmaterial", "count" : 20 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "peglacibox2", "count" :1 },
-  "groups" : [ "craftingfurniture", "storage", "all" ]
-}

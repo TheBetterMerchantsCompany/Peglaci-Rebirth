@@ -1,8 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "duration" : 5,
-  "output" : { "item" : "giantek", "count" : 300 },
-  "groups"  : [ "craftingfurniture", "materials", "all" ]
-}

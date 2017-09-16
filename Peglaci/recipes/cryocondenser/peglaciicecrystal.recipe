@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "icecrystal", "count" : 3 }
-  ],
-  "output" : { "item" : "peglaciicecrystal", "count" : 1 },
-  "groups"  : [ "cryocondenser", "materials", "all" ]
-}

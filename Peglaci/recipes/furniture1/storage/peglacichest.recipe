@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "copperbar", "count" : 1 },
-    { "item" : "darkwoodmaterial", "count" : 4 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "peglacichest", "count" :1 },
-  "groups" : [ "craftingfurniture", "storage", "all" ]
-}
