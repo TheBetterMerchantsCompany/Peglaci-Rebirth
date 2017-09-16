@@ -2,7 +2,7 @@
   "itemName" : "peglacifuelcell",
   "rarity" : "Common",
   "category" : "fuel",
-  "inventoryIcon" : "fuelcell.png",
+  "inventoryIcon" : "peglacifuelcell.png",
   "description" : "While your ship can operate using many fuels, it is designed to use this high density cell.",
   "shortdescription" : "Peglaci Fuel Cell",
   "fuelAmount" : 100,
