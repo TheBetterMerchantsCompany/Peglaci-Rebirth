@@ -7,6 +7,7 @@
   "interactAction" : "OpenAiInterface",
   
   "category" : "decorative",
+  
   "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
   "shortdescription" : "S.A.I.L",
   "race" : "peglaci",

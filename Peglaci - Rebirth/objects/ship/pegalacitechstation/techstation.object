@@ -1,7 +1,9 @@
 {
   "objectName" : "peglacitechstation",
+  "colonyTags" : ["peglaci"],
   "printable" : false,
   "rarity" : "Common",
+  
   "interactAction" : "OpenAiInterface",
 
   "category" : "decorative",
