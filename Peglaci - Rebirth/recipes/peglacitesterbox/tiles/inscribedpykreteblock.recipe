@@ -2,6 +2,6 @@
   "input" : [
    
   ],
-  "output" : { "item" : "inscribedpykreteblock", "count" : 300 },
+  "output" : { "item" : "peglaciinscribedpykreteblock", "count" : 300 },
   "groups" : [ "peglacitesterbox", "materials", "all" ]
 }

@@ -2,6 +2,6 @@
   "input" : [
    
   ],
-  "output" : { "item" : "hexpane", "count" : 300 },
+  "output" : { "item" : "peglacihexpane", "count" : 300 },
   "groups" : [ "peglacitesterbox", "materials", "all" ]
 }

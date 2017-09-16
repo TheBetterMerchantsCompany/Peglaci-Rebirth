@@ -3,6 +3,6 @@
    
   ],
   "duration" : 5,
-  "output" : { "item" : "giantek", "count" : 300 },
+  "output" : { "item" : "peglacigiantekblock", "count" : 300 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }

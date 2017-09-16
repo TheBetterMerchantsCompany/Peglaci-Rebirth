@@ -3,22 +3,20 @@
   "materialName" : "peglacimetalblock",
   "particleColor" : [77, 88, 198, 255],
   "itemDrop" : "peglacimetalblock",
-  "description" : "I can't describe this block.",
   "shortdescription" : "Alloy Metal Block",
-
 
 
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "health" : 35,
-  "category" : "materials",
+  "category": "materials",
 
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
     "texture" : "peglacimetalblock.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 0
   }
 }

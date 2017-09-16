@@ -2,6 +2,6 @@
   "input" : [
    
   ],
-  "output" : { "item" : "pykretestrip", "count" : 300 },
+  "output" : { "item" : "peglacipykretestrip", "count" : 300 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }
