@@ -7,6 +7,7 @@
   "shortdescription" : "Pykrete Decor Panel",
 
 
+
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 4,
   "category": "materials",

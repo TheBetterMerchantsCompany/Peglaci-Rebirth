@@ -12,12 +12,12 @@
   "health" : 35,
   "category": "materials",
 
-  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "peglacihexpane.png",
     "variants" : 5,
-    "lightTransparent" : false,
-    "occludesBelow" : true,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 0
   }

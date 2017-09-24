@@ -2,7 +2,7 @@
   "materialId" : 3497,
   "printable" : true,
   "price" : 10,
-  "materialName" : "peglacigiantekblock",
+  "materialName" : "peglacigiantek",
   "particleColor" : [150, 50, 50, 255],
   "itemDrop" : "peglacigiantekblock",
   "description" : "A panel of ancient Giantek. It makes me feel dizzy.",
@@ -13,9 +13,9 @@
   "health" : 4,
   "category": "materials",
 
-  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "peglacigiantekblock.png",
+    "texture" : "peglacigiantek.png",
     "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : true,
