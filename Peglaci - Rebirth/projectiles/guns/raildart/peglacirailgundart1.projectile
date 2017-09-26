@@ -9,6 +9,12 @@
   "pointLight" : false,
   "speed" :60,
   "lightColor" : [40, 40, 190],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }

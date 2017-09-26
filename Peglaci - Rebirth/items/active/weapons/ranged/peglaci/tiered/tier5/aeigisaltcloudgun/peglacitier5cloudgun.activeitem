@@ -17,7 +17,7 @@
   "animationParts" : {
     "gun" : "peglacitier5cloudgun.png",
     "gunfullbright" : "peglacitier5cloudgunfullbright.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -36,28 +36,24 @@
   "primaryAbility" : {
     "chargeLevels" : [
       {
-        "time" : 1,
+        "time" : 0,
         "energyCost" : 34,
         "cooldown" : 0.1,
         "projectileType" : "peglacirailgundart1",
         "projectileParameters" : {
-          "knockback" : 1,
-          "speed" : 30,
-          "statusEffects" : [ "" ]
+          "knockbackRange" : 1
       },
-        "inaccuracy" : 0,
-        "baseDamage" : 3.8,
+        "inaccuracy" : 0.008,
+        "baseDamage" : 5.0,
         "fireSound" : "fire"
       },
       {
-        "time" : 2,
+        "time" : 1.1,
         "energyCost" : 54,
         "cooldown" : 0.5,
-        "projectileType" : "peglacirailgundartpower",
+        "projectileType" : "peglacirailgundartpower1",
         "projectileParameters" : {
-          "knockback" : 2,
-          "speed" : 40,
-          "statusEffects" : [ "" ]
+          "knockbackRange" : 2
       },
         "inaccuracy" : 0,
         "baseDamage" : 6.8,
