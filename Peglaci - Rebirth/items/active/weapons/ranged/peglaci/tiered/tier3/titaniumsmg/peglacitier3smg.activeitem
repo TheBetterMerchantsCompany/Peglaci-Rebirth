@@ -18,7 +18,7 @@
     "butt" : "",
     "middle" : "peglacitier3smg.png",
     "barrel" : "",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : { "fire" : [ "/sfx/gun/plasma_ar4.ogg" ] },
