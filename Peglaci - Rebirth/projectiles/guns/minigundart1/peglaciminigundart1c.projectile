@@ -12,13 +12,10 @@
   "timeToLive" : 0.01,
   "actionOnReap" : [
     {
-    "action" : "projectile",
-    "type" : "peglaciminigundart1",
-    "inheritDamageFactor" : 1,
-	  "fuzzAngle" : 2,
-    "angleAdjust" : 90
+    "action" : "config",
+    "file" : "/projectiles/explosions/coldsplosion/coldsplosion.config"
     }
-  ],  
+  ],
   "damageKind" : "default",
   "emitters" : [ "peglacitrailpurple" ]
 }
