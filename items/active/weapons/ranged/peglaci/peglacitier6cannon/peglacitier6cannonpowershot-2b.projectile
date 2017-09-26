@@ -1,0 +1,25 @@
+{
+  "projectileName" : "peglacitier6cannonpowershot-2b",
+  "image" : "peglacitier6cannonpowershotnull.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 20,
+  "timeToLive" : 0.25,
+
+  "lightColor" : [200, 200, 255],
+  "actionOnReap" : [
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}

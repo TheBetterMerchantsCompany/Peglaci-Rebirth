@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "peglacitier2head", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

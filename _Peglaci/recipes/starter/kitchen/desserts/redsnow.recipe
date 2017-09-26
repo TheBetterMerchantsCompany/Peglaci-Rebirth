@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "slushpaste", "count" : 1 },
-    { "item" : "redstim", "count" : 3 }
-  ],
- "output" : { "item" : "redsnow", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "dessert" ]
-}

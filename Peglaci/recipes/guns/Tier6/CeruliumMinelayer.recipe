@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier9minelayer", "count" : 1 },
-    { "item" : "ceruliumcompound", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier10minelayer", "count" : 1 },
-  "groups" : [ "manipulatortable", "weapons", "all" ]
-}
-

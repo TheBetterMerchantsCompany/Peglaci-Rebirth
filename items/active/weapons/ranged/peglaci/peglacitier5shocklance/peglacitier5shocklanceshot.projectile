@@ -1,0 +1,23 @@
+{
+  "projectileName" : "peglacitier5shocklanceshot",
+  "image" : "peglacitier5shocklanceshot.png",
+  "animationCycle" : 0.1,
+  "armorPenetration" : 3,
+  "physics" : "bullet",
+  "frameNumber" : 8,
+  "pointLight" : false,
+  "speed" : 35,
+   "lightColor" : [40, 40, 190],
+  "actionOnReap" : [
+   {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    },
+	 {
+      "action" : "config",
+      "file" : "/projectiles/explosions/peglacizapsplosion/peglacizapsplosion.config"
+    }
+  ],
+  "damageKind" : "slash",
+  "emitters" : [ "peglacitrail" ]
+}

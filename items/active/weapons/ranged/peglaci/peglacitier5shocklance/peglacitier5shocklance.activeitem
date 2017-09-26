@@ -1,0 +1,61 @@
+{
+  "itemName" : "peglacitier5shocklance",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fires a dense pulse of sound - charge to fire a ricocheting blast.",
+  "shortdescription" : "Abbatoir Shocklance I",
+  "tooltipKind" : "gun",
+  "category" : "Rifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "rifle"],
+  "level" : 5,
+
+  "inventoryIcon" : "peglacitier5shocklanceicon.png",
+
+  "animation" : "peglacitier5shocklance.animation",
+  "animationParts" : {
+    "gun" : "peglacitier5shocklance.png",
+    "gunfullbright" : "peglacitier5shocklancefullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+    }
+  },
+
+  "muzzleOffset" : [1.4, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 5,
+        "cooldown" : 0.0,
+        "projectileType" : "peglacitier5shocklanceshot",
+        "projectileParameters" : {},
+        "inaccuracy" : 0.008,
+        "baseDamage" : 1.5,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 0.5,
+        "projectileType" : "peglacitier5shocklanceshotpower",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 7,
+        "fireSound" : "fire2"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

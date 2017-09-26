@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "feroziumcompound", "count" : 8 }
-  ],
-  "output" : { "item" : "peglacitier6cestus", "count" : 1 },
-  "groups" : [ "acceleratortable", "weapons", "all" ]
-}

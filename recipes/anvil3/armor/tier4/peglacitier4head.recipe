@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "peglacitier4head", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}
