@@ -36,28 +36,26 @@
   "primaryAbility" : {
     "chargeLevels" : [
       {
-        "time" : 1,
+        "time" : 0,
         "energyCost" : 32,
-        "cooldown" : 0.1,
+        "cooldown" : 1,
         "projectileType" : "peglacirailgundart1",
         "projectileParameters" : {
           "knockback" : 10,
-          "speed" : 90,
-          "statusEffects" : [ "" ]
+          "speed" : 90
       },
         "inaccuracy" : 0,
         "baseDamage" : 8.2,
         "fireSound" : "fire"
       },
       {
-        "time" : 2,
+        "time" : 1,
         "energyCost" : 52,
-        "cooldown" : 0.5,
+        "cooldown" : 1.5,
         "projectileType" : "peglacirailgundartpower1",
         "projectileParameters" : {
           "knockback" : 20,
-          "speed" : 110,
-          "statusEffects" : [ "" ]
+          "speed" : 110
       },
         "inaccuracy" : 0,
         "baseDamage" : 10.2,
