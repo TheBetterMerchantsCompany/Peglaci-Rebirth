@@ -1,0 +1,31 @@
+{
+  "itemName" : "peglacitier6knife",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "peglacitier6knife.png",
+  "image" : "peglacitier6knife.png",
+  "shortdescription" : "Disabler",
+  "description" : "Freezes the target's skin, stopping them in their tracks and sapping their heat.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "peglacitier6knife",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 250,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}
