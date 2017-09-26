@@ -1,0 +1,31 @@
+{
+  "itemName" : "peglaciiceball",
+  "price" : 1,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "peglaciiceball.png",
+  "image" : "peglaciiceball.png",
+  "shortdescription" : "Ice Knife",
+  "description" : "Cold and fragile, but very sharp!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "peglaciiceball",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 2,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

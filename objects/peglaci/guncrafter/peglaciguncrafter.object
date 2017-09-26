@@ -17,7 +17,7 @@
         "title" : "Gun Crafter",
         "subtitle" : "Handguns",
         "icon" : {
-          "file" : "/interface/crafting/craftingguncrafter.png"
+          "file" : "objects/peglaci/guncrafter/peglaciguncraftericon.png"
         }
       }
     },

@@ -1,8 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "duration" : 5,
-  "output" : { "item" : "peglacigiantekblock", "count" : 300 },
-  "groups"  : [ "craftingfurniture", "materials", "all" ]
-}

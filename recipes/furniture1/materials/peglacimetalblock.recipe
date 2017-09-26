@@ -1,6 +1,6 @@
 {
   "input" : [
-   
+
   ],
   "output" : { "item" : "peglacimetalblock", "count" : 300 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]

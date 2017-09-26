@@ -9,7 +9,7 @@
 
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "health" : 6,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 3 }
+  ],
+  "output" : { "item" : "peglacitier6knife", "count" : 4 },
+  "groups" : [ "craftingaccelerator", "consumables", "all" ]
+}

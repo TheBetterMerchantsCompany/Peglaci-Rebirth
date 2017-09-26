@@ -1,6 +1,6 @@
 {
   "input" : [
-   
+
   ],
   "output" : { "item" : "peglacimetalpanel", "count" : 300 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]

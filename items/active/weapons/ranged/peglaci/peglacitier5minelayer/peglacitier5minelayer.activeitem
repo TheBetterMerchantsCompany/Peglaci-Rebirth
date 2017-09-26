@@ -1,0 +1,62 @@
+{
+  "itemName" : "peglacitier5minelayer",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Disperses powerful Violium mines - charge to launch a devastating adhesive charge.",
+  "shortdescription" : "Tremor Minelayer I",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 5,
+
+  "inventoryIcon" : "peglacitier5minelayericon.png",
+
+  "animation" : "peglacitier5minelayer.animation",
+  "animationParts" : {
+    "gun" : "peglacitier5minelayer.png",
+    "gunfullbright" : "peglacitier5minelayerfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.2, 0.26],
+  "muzzleOffset" : [1.4, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 5,
+        "cooldown" : 0.1,
+        "projectileType" : "peglacitier5minelayershot-1",
+        "projectileParameters" : {},
+        "inaccuracy" : 0.008,
+        "baseDamage" : 1.5,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.8,
+        "energyCost" : 40,
+        "cooldown" : 0.5,
+        "projectileType" : "peglacitier5minelayershotpower-1",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 7,
+        "fireSound" : "fire2"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
