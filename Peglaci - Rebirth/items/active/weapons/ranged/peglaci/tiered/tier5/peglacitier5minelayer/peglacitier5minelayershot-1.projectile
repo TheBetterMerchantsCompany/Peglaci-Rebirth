@@ -1,0 +1,34 @@
+{
+  "projectileName" : "peglacitier5minelayershot-1",
+  "image" : "peglacitier5minelayershot-1.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "bullet",
+  "frameNumber" : 8,
+  "pointLight" : false,
+  "speed" : 20,
+  "timeToLive" : 0.001,
+  "lightColor" : [40, 40, 190],
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "peglacitier5minelayershot-2",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier5minelayershot-2",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -30
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5minelayershot-2",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 30
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}

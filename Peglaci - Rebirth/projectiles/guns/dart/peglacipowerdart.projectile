@@ -6,18 +6,20 @@
   "physics" : "bullet",
   "bounces" : 0,
   "frameNumber" : 4,
-  "piercing" : false,  
+  "piercing" : false,
   "power" : 40,
   "lightColor" : [0, 100, 100],
-  "speed" :30,
-  "timeToLive" : 0.5,
+  "speed" : 15,
+  "timeToLive" : 1,
   "actionOnReap" : [
     {
     "action" : "config",
-    "file" : "/projectiles/explosions/zapsplosion/zapsplosion.config"
+    "file" : "/projectiles/explosions/peglacizapsplosion/peglacizapsplosion.config"
     }
   ],
-  "statusEffects" : [ "stun" ],  
+  "statusEffects" : [
+    {"effect" : "stun"}
+  ],
   "damageKind" : "default",
   "emitters" : [ "peglacitraillong" ]
 }

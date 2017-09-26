@@ -1,0 +1,56 @@
+{
+  "itemName" : "peglacitier3icethrower",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
+  "shortdescription" : "Mistral Icethrower I",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "level" : 3,
+
+  "inventoryIcon" : "peglacitier3icethrowericon.png",
+
+  "animation" : "peglacitier3icethrower.animation",
+  "animationParts" : {
+    "gun" : "peglacitier3icethrower.png",
+    "gunfullbright" : "peglacitier3icethrowerfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/icechucker.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.0, 0.120],
+  "muzzleOffset" : [1.645, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0.5,
+        "energyCost" : 27,
+        "cooldown" : 0.1,
+        "projectileType" : "peglaciicecloud-1",
+        "projectileParameters" : {
+          "knockbackRange" : 3
+        },
+        "inaccuracy" : 0.001,
+        "baseDamage" : 9.7,
+        "fireSound" : "fire"
+      }
+    ]
+  },
+
+  "altAbilityType" : "",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
