@@ -38,22 +38,24 @@
       {
         "time" : 0,
         "energyCost" : 34,
-        "cooldown" : 0.1,
-        "projectileType" : "peglacirailgundart1",
+        "cooldown" : 1,
+        "projectileType" : "peglacicannonshot1",
         "projectileParameters" : {
-          "knockbackRange" : 1
+          "knockback" : 1,
+          "speed" : 30
       },
-        "inaccuracy" : 0.008,
-        "baseDamage" : 5.0,
+        "inaccuracy" : 0,
+        "baseDamage" : 3.8,
         "fireSound" : "fire"
       },
       {
-        "time" : 1.1,
+        "time" : 1,
         "energyCost" : 54,
-        "cooldown" : 0.5,
-        "projectileType" : "peglacirailgundartpower1",
+        "cooldown" : 1.5,
+        "projectileType" : "peglaciicecloudpower",
         "projectileParameters" : {
-          "knockbackRange" : 2
+          "knockback" : 2,
+          "speed" : 40
       },
         "inaccuracy" : 0,
         "baseDamage" : 6.8,
